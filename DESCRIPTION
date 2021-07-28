@@ -1,0 +1,14 @@
+Package: mermaid
+Title: HTML Widget for Mermaid.js
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Tamara",
+           family = "Cook",
+           role = c("aut", "cre"),
+           email = "10754072+tamaracha@users.noreply.github.com")
+Description: This package contains Mermaid as a standalone version without DiagrammeR.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
