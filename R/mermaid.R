@@ -3,11 +3,14 @@
 #' @import htmlwidgets
 #'
 #' @export
-mermaid <- function(message, width = NULL, height = NULL, elementId = NULL) {
+mermaid <- function(diagram, width = NULL, height = NULL, elementId = NULL) {
 
-  # forward options using x
+  data <- diagram
+  if(file.exists(diagram)) {
+    data <- paste(readLines(diagram), collapse="\n")
+  }
   x = list(
-    message = message
+    diagram = data
   )
 
   # create widget

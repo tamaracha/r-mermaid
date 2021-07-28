@@ -10,7 +10,7 @@ HTMLWidgets.widget({
     })
     return {
       renderValue: function(x) {
-        mermaid.render(`img-${el.id}`, x.message, (svg, fns) => {
+        mermaid.render(`img-${el.id}`, x.diagram, (svg, fns) => {
           el.innerHTML = svg
         })
       },

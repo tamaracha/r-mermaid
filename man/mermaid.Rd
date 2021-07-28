@@ -4,7 +4,7 @@
 \alias{mermaid}
 \title{Render Mermaid diagrams}
 \usage{
-mermaid(message, width = NULL, height = NULL, elementId = NULL)
+mermaid(diagram, width = NULL, height = NULL, elementId = NULL)
 }
 \description{
 Render Mermaid diagrams
