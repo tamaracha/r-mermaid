@@ -1,0 +1,6 @@
+dependencies:
+  - name: mermaid
+    version: 8.11.0
+    src: htmlwidgets/lib/mermaid-8.11.0
+    script:
+      - mermaid.min.js
